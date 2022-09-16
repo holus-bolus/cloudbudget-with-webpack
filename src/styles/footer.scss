@@ -3,3 +3,37 @@
   padding-top: 90px;
   padding-bottom: 90px;
 }
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__address {
+  width: 200px;
+}
+
+.footer__subheading {
+  margin-bottom: 40px;
+}
+
+.footer__address-text {
+  margin-bottom: 135px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.footer__link{
+  color: #000000;
+}
+
+.footer__social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}

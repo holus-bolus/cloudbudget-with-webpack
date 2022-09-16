@@ -1,0 +1,24 @@
+.easy-use {
+  padding-bottom: 95px;
+  padding-top: 95px;
+}
+
+.easy-use__container {
+  @include flex-center;
+}
+
+.easy-use__text-wrapper {
+  width: 450px;
+}
+
+.easy-use__heading {
+  margin-bottom: 60px;
+}
+
+.easy-use__img-wrapper {
+  width: 540px;
+}
+
+.easy-use__image {
+  width: 100%;
+}

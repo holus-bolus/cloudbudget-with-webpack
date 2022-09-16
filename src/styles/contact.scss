@@ -1,0 +1,78 @@
+.contact {
+  padding-top: 125px;
+  padding-bottom: 75px;
+}
+
+.contact__container {
+  display: flex;
+  gap: 125px;
+  align-items: center;
+}
+
+.contact__heading {
+  margin-bottom: 55px;
+}
+
+.contact__text {
+  width: 450px;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contact__first-name-label {
+  width: 47.3%;
+}
+
+.contact__last-name-label {
+  width: 47.3%;
+}
+
+.input--half {
+  width: 100%;
+  padding: 20px;
+}
+
+.contact__phone {
+  width: 100%;
+}
+
+.contact__phone-input {
+  width: 100%;
+  padding: 20px;
+}
+
+.contact__select-label {
+  width: 100%;
+}
+
+.contact__select {
+  width: 100%;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.contact__button {
+  padding-top: 25px;
+  padding-right: 35px;
+  padding-bottom: 25px;
+  padding-left: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  background-color: rgba(237, 76, 92, 1);
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  border: 1px solid rgba(237, 76, 92, 1);
+  border-radius: 5px;
+}

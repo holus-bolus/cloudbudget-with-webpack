@@ -1,0 +1,38 @@
+.stay-focused {
+  background-color: rgba(237, 76, 92, 1);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.stay-focused__container {
+  @include flex-center;
+  gap: 125px;
+}
+
+.stay-focused__text-wrapper {
+  width: 450px;
+}
+
+.stay-focused__card-wrapper {
+  width: 540px;
+}
+
+.stay-focused__iframe {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.stay-focused__heading {
+  margin-bottom: 45px;
+}
+
+
+.stay-focused__text {
+  margin-bottom: 35px;
+}
+
+.stay-focused__icons-wrapper {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}

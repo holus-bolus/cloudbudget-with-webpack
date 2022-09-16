@@ -1,12 +1,21 @@
 .contact {
   padding-top: 125px;
   padding-bottom: 75px;
+  @include media-tablet {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 .contact__container {
   display: flex;
   gap: 125px;
   align-items: center;
+  @include media-tablet {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 
 .contact__heading {
@@ -20,6 +29,9 @@
   font-weight: 400;
   line-height: 1.2;
   color: #000000;
+  @include media-mobile {
+    width: 95%;
+  }
 }
 
 .form {
@@ -30,10 +42,16 @@
 
 .contact__first-name-label {
   width: 47.3%;
+  @include media-mobile {
+    width: 100%;
+  }
 }
 
 .contact__last-name-label {
   width: 47.3%;
+  @include media-mobile {
+    width: 100%;
+  }
 }
 
 .input--half {

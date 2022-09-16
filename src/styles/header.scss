@@ -1,11 +1,22 @@
 .header {
   padding-top: 45px;
-  padding-bottom: 110px
+  padding-bottom: 110px;
+  @include media-tablet {
+    padding-bottom: 50px;
+  }
 }
 
 
 .header__container {
   @include flex-center;
+  @include media-tablet {
+    display: flex;
+    gap: 10px;
+  }
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .header__logo {
@@ -22,6 +33,10 @@
 .header__list {
   @include flex-center;
   gap: 25px;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .header__link {

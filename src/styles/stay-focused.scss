@@ -7,14 +7,25 @@
 .stay-focused__container {
   @include flex-center;
   gap: 125px;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 
 .stay-focused__text-wrapper {
   width: 450px;
+  @include media-mobile {
+    width: 95%;
+  }
 }
 
 .stay-focused__card-wrapper {
   width: 540px;
+  @include media-mobile {
+    width: 95%;
+  }
 }
 
 .stay-focused__iframe {

@@ -7,6 +7,11 @@
 .footer__container {
   display: flex;
   justify-content: space-between;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
 .footer__address {
@@ -15,10 +20,16 @@
 
 .footer__subheading {
   margin-bottom: 40px;
+  @include media-mobile {
+    margin-bottom: 20px;
+  }
 }
 
 .footer__address-text {
   margin-bottom: 135px;
+  @include media-mobile {
+    margin-bottom: 50px;
+  }
 }
 
 .footer__list {
